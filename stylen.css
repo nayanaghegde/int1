@@ -1,25 +1,40 @@
-/* Reset some default styles */
+/* Basic Reset */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
-/* Header Styling */
+/* Header */
 header {
-    background-color: #333;
+    background: #222;
     color: white;
-    text-align: center;
-    padding: 15px;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin-top: 10px;
 }
-
+.breaking-news img {
+    width: 100px;
+    height: 400px; /* Fixed height for a consistent layout */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-radius: 10px;
+}
 nav ul li {
     display: inline;
     margin: 0 15px;
@@ -28,48 +43,54 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* Main Content */
-main {
-    width: 80%;
-    margin: 20px auto;
-}
-
-/* Main News Section */
-.main-news {
+/* Breaking News */
+.breaking-news {
     background: white;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-.main-news img {
+.breaking-news img {
     width: 100%;
     border-radius: 5px;
 }
 
-.main-news h2 {
-    color: #333;
+.breaking-news h2 {
+    color: #222;
 }
 
-.main-news a {
+.breaking-news a {
     color: #007BFF;
     text-decoration: none;
 }
 
 /* Latest News */
 .latest-news {
-    background: white;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background: white;
+    margin: 20px;
 }
 
-.latest-news h2 {
-    color: #333;
+.news-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-grid article {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.news-grid img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 .latest-news h3 a {
@@ -77,32 +98,26 @@ main {
     text-decoration: none;
 }
 
-/* Trending News */
-h3 {
-    color: #333;
-    text-align: center;
+/* Editorial Picks */
+.editorial {
+    padding: 20px;
+    background: #f4f4f4;
+    margin: 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+.editorial h2 {
+    color: #222;
 }
 
-ul li {
-    margin: 10px 0;
-}
-
-ul li a {
+.editorial h3 a {
     color: #007BFF;
     text-decoration: none;
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #222;
     color: white;
-    text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
