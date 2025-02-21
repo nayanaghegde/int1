@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylep.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <img src="p1.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Hi, I am Nayana Ganapati Hegde</h1>
+            <p>Information Science and Engineering Student</p>
+            <p>A third year student at Canara Engineering College, Mangalore</p>
+            <a href="#contact" class="contact-button">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>B.E. (Ongoing)</h3>
+                    <p>College: Canara Engineering College, Mangalore</p>
+                    <p>Year: 2025</p>
+                    <p>CGPA: 8.59</p>
+                </div>
+                <div class="education-item">
+                    <h3>Pre-University (PU) College</h3>
+                    <p>College: SDM PU College, Honnavar</p>
+                    <p>Year: 2021</p>
+                    <p>Percentage: 97.80%</p>
+                </div>
+                <div class="education-item">
+                    <h3>High School</h3>
+                    <p>School: New English School, Honnavar</p>
+                    <p>Year: 2019</p>
+                    <p>Percentage: 97.28%</p>
+                </div>
+            </div>
+            <div class="experience">
+                <h2>Relevant Experience</h2>
+                <div class="experience-item">
+                    <p>Internship: Online internship at Bharath Intern in Web Development</p>
+                </div>
+                <div class="experience-item">
+                    <p>Internship: Online internship at System tron in Python</p>
+                </div>
+            </div>
+            <a href="Nayana G Hegde resume1.pdf" target="_blank" class="resume-button">View Resume</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-content">
+            <div class="skills-category">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h2>Scripting Languages</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <button class="project-button" onclick="showProject('project1')">Project 1</button>
+            <button class="project-button" onclick="showProject('project2')">Project 2</button>
+            <button class="project-button" onclick="showProject('project3')">Project 3</button>
+        </div>
+        <div id="project-details" class="project-details">
+            <!-- Project details will be displayed here dynamically -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact-content">
+            <ul>
+                <li><strong>Phone:</strong> 8762098703</li>
+                <li><strong>Email:</strong>nayanahegde578@gmail.com</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nayana-hegde-3707b1228" target="_blank">Nayana Hegde</a></li>
+                <li><strong>Address:</strong> House No.:425, Hosakuli, Honnavar, (U.K),Pin code:581-334</li>
+            </ul>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
