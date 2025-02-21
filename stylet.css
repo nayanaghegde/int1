@@ -1,0 +1,106 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url("https://via.placeholder.com/1200x500") no-repeat center center/cover;
+    color: white;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Destinations */
+.destinations {
+    padding: 30px;
+    background: white;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Services */
+.services {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact */
+.contact {
+    padding: 20px;
+    background: white;
+}
+
+/* Footer */
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
